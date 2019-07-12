@@ -1,0 +1,50 @@
+// Header, footer, navigation, section 
+body {
+  margin: 0;
+}
+.brand-hero {
+  background: url(http://graphics.web.com/brand-guidelines/hero-test.png) no-repeat center; 
+  background-size: cover;
+   height: 464px;
+}
+.custom-container {
+  max-width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.circle {
+  background: url(../img/ellipse.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  max-width: 715px;
+  height: 464px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.circle-text {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 464px;
+}
+h1 {
+  font-size: 36px;
+  font-weight: 300;
+}
+p {
+  font-size: 22px;
+  font-weight: 300;
+}
+img {
+  height: 464px;
+  opacity: .8;
+}
